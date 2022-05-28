@@ -1,0 +1,25 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #eef0f3;
+
+    :global {
+      
+        .at-tabs__item-underline {
+            width: 50%;
+            margin-left: 25%;
+        }
+    }
+
+    .tabView {
+        width: 100%;
+        overflow-y: hidden;
+        position: relative;
+        flex: 1;
+    }
+
+    .test {
+        background-color: beige;
+    }
+}

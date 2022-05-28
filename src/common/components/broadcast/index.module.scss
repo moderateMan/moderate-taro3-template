@@ -1,0 +1,41 @@
+.content {
+    display: flex;
+    align-items: center;
+    margin: 10px 12px 0 12px;
+    height: 50px;
+    padding-left: 15px;
+    border-radius: 8px;
+    .overflow {
+        overflow: hidden;
+    }
+
+    .leftIcon {
+        width: 50px;
+    }
+
+    .font28 {
+        font-size: 28px;
+    }
+
+    .relative {
+        position: relative;
+    }
+
+    .scroll {
+        flex: 1;
+    }
+
+    .marquee_text {
+        white-space: nowrap;
+        position: absolute;
+        top: 0;
+    }
+
+    .braIcon {
+        width: 24px;
+        height: 20px;
+        background: url("../../../assets/img/braIcon.png") no-repeat;
+        background-size: 100%;
+        margin-right: 8px;
+    }
+}

@@ -1,0 +1,42 @@
+.content {
+    .topPart {
+        background-color: #FFFFFF;
+        padding: 0 20px;
+        overflow: auto;
+    }
+
+    .bannar {
+        width: 100%;
+        height: 220px;
+        position: relative;
+        background-color:gainsboro;
+        border-radius: 10px;
+        margin: 10px 12px;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        position: absolute;
+        left: 50px;
+        height:180px;
+        width: 100px;
+        background: url("../../../assets/logo2.png") no-repeat;
+        background-size: 100%;
+    }
+    .title{
+        margin-left: 200px;
+        font-size: 100px;
+        font-weight: 500;
+        font-family: "Public Sans", sans-serif;
+    }
+    .warnInfo {
+        font-size: 10Px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #FF9900;
+        line-height: 12Px;
+        margin: 10Px;
+        text-align: center;
+    }
+}

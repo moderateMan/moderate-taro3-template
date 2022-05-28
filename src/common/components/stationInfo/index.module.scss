@@ -1,0 +1,69 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 5Px;
+
+
+    .fontA {
+        font-size: 16Px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: #333333;
+        line-height: 20Px;
+    }
+
+    .fontB {
+        font-size: 12Px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: green;
+        line-height: 15Px;
+        display: flex;
+        align-items: center;
+    }
+
+    .fontBRed {
+        font-size: 12Px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: red;
+        line-height: 15Px;
+        display: flex;
+        align-items: center;
+    }
+
+    .fontBYellow {
+        font-size: 12Px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: #ffa32d;
+        line-height: 15Px;
+        display: flex;
+        align-items: center;
+    }
+
+    .point {
+        width: 4Px;
+        height: 4Px;
+        border-radius: 2Px;
+        background-color: green;
+        margin-right: 5Px;
+    }
+
+    .pointRed {
+        width: 4Px;
+        height: 4Px;
+        border-radius: 2Px;
+        background-color: red;
+        margin-right: 5Px;
+    }
+
+    .pointYellow {
+        width: 4Px;
+        height: 4Px;
+        border-radius: 2Px;
+        background-color: #ffa32d;
+        margin-right: 5Px;
+    }
+
+}

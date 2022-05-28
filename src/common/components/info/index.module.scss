@@ -1,0 +1,66 @@
+.content {
+    flex: 1;
+    padding: 0 6px;
+    position: relative;
+
+    .checkIcon {
+        width: 32px;
+        height: 32px;
+        background: url("../../../assets/img/checkIcon.png") no-repeat;
+        background-size: 100%;
+        position: absolute;
+        left: 6px;
+        top: 0px;
+    }
+
+    .card {
+        height: 64px;
+        color: white;
+        text-align: center;
+        line-height: 64px;
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    .cardNBottom {
+        display: flex;
+        justify-content: center;
+        border-radius: 0px 0px 8px 8px;
+    }
+
+    .table {
+        border-radius: 8px;
+        height: 120px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .infoA {
+        width: 40Px;
+        height: 20Px;
+        background: #21CC5A;
+        border-radius: 10Px;
+        font-size: 12Px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: #FFFFFF;
+        line-height: 20Px;
+    }
+
+    .infoB1 {
+        font-size: 24px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        line-height: 30px;
+        margin: 10px 0Px;
+    }
+
+    .item {
+        display: flex;
+        justify-content: center;
+    }
+
+
+}

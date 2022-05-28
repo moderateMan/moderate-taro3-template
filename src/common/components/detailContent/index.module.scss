@@ -1,0 +1,33 @@
+.content {
+    padding: 10Px;
+    margin-top: 7Px;
+
+    .detailItem {
+        display: flex;
+        margin-bottom: 12Px;
+        position: relative;
+
+        .left {
+            flex: 2;
+            width: 70Px;
+            font-size: 1rem !important;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #999999;
+            line-height: 17Px;
+            text-align: left;
+            white-space: nowrap;
+        }
+
+        .right {
+            text-align: left;
+            flex: 7;
+            font-size: 14Px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #333333;
+            line-height: 19Px;
+        }
+    }
+
+}

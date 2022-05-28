@@ -1,0 +1,46 @@
+.content {
+    background: #FFFFFF;
+    border-radius: 4Px;
+    margin: 10Px 0Px;
+    padding: 7Px;
+
+    .distance {
+        font-size: 24px;
+        text-align: right;
+    }
+
+    .headerTop {
+        display: flex;
+        justify-content: space-between;
+        padding: 5Px;
+    }
+
+    .fontC {
+        font-size: 32px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: #333333;
+        line-height: 40px;
+        margin-left: 20px;
+    }
+
+
+    .iconImg {
+        width: 26px;
+        background: url("../../../../assets/icon1.png") no-repeat;
+        background-size: 100%;
+    }
+
+    .headerTopContent {
+        display: flex;
+    }
+
+
+    .line {
+        height: 1Px;
+        border-top: 0.5Px solid #E6E6E6;
+        width: calc(100% - 12Px);
+        margin-left: 6Px;
+        margin-top: 6Px;
+    }
+}

@@ -1,0 +1,51 @@
+.content {
+    padding: 0Px 0Px 10Px 0Px;
+
+    :global {
+        .at-button__text {
+            width: 100%;
+            position: absolute;
+            padding-left: 25px;
+        }
+    }
+
+    .item {
+        position: relative;
+        width: 25%;
+        text-align: left !important;
+        font-size: 24px !important;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #333333;
+        line-height: 60px;
+    }
+
+    .itemEx {
+        border: 0px;
+        background-color: #0077FF14;
+        color: #0077FFFF;
+        text-align: center;
+        font-size: 24px;
+        padding-left: 0px !important;
+    }
+
+    .icon {
+        position: absolute;
+        right: 10Px;
+        top: 5px;
+        color: #76c6b8
+    }
+
+    .btnIcon {
+        width: 18px;
+        height: 12px;
+        background: url("../../../assets/img/btnIcon.png") no-repeat;
+        background-size: 100%;
+        position: absolute;
+        right: 15Px;
+        top: 25px;
+        color: #76c6b8
+    }
+
+
+}

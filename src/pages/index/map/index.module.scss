@@ -1,0 +1,41 @@
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+   
+   
+
+    .topPart {
+        background-color: #FFFFFF;
+        padding: 0 10Px;
+        overflow: auto;
+    }
+
+    .warnInfo {
+        font-size: 10Px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #FF9900;
+        line-height: 12Px;
+        margin: 10Px;
+    }
+
+    .map {
+        overflow: hidden;
+        width: 100%;
+        min-height: 300px;
+        flex: 1;
+        margin: 0;
+        font-family: "微软雅黑";
+    }
+
+    .disMarkerIcon {
+        width: 34Px;
+        height: 50Px;
+        background: url("../../../assets/img/disMarker.png") no-repeat;
+        background-size: 100%;
+    }
+
+}

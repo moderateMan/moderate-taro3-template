@@ -1,0 +1,14 @@
+.content{
+    height: 100%;
+    .empty {
+        width: 34Px;
+        height: 50Px;
+        background: url("../../../assets/empty.png") no-repeat;
+        background-size: 100%;
+    }
+    
+    .info {
+        text-align: center;
+        color: black;
+    }
+}

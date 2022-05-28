@@ -1,0 +1,22 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+
+    .listWrapper{ 
+        flex: 1;
+        overflow: auto;
+        padding: 0 24px;
+    }
+    .scrollView {
+        flex: 1;
+        overflow: auto;
+        padding: 0 12px;
+    }
+
+    .tabView {
+        overflow-y: auto;
+        height: calc(100% - 36Px);
+    }
+}

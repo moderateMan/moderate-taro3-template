@@ -1,0 +1,133 @@
+const fetchListUrl = "/checkPoint/selectPage";
+const fetchMapMarkerListUrl = "/checkPoint/selectMapMarkerList";
+const fetchDetailUrl = "/checkPoint/detail";
+const fetchNoticeTopUrl = "/notice/top";
+
+import Mock from "mockjs";
+export default {
+  "POST /checkPoint/selectPage": {
+    code: "0000",
+    msg: "ok",
+    data: Mock.mock({
+      "list|1-10": [
+        {
+          "id|+1": 1,
+          "name|+1": [
+            "白羊座",
+            "金牛座",
+            "双子座",
+            "巨蟹座",
+            "狮子座",
+            "处女座",
+            "天秤座",
+            "天蝎座",
+            "射手座",
+            "摩羯座",
+            "水瓶座",
+            "双鱼座",
+          ],
+          "longitude|123.10": 1.123,
+          "latitude|32.2": 1.123,
+          count: 1,
+          provinceName: "测试省",
+          cityName: "测试市",
+          districtName: "测试区",
+          streetName: "测试街道",
+          address: "创意产业园",
+          servePeople: "非特殊人群",
+          status: 2,
+          healthCode: 0,
+          serviceTime: "08:00~11:00，14:00~17:00",
+          closed: 1,
+          distance: 1041591.5669759354,
+        },
+      ],
+      count: 1,
+      pageable: null,
+    }),
+    success: true,
+  },
+  "POST /checkPoint/selectMapMarkerList": {
+    code: "0000",
+    msg: "ok",
+    data: Mock.mock({
+      "list|1-100": [
+        {
+          "id|+1": 1,
+          "status|1": [0, 1, 2],
+          "closed|1": [0, 1],
+          "longitude|104.0-10": 1,
+          "latitude|30.0-10": 1,
+        },
+      ],
+      count: 1,
+      pageable: null,
+    }),
+    success: true,
+  },
+  "POST /checkPoint/detail": {
+    code: "0000",
+    msg: "ok",
+    data: {
+      "id|+1": 1,
+      "name|+1": [
+        "白羊座",
+        "金牛座",
+        "双子座",
+        "巨蟹座",
+        "狮子座",
+        "处女座",
+        "天秤座",
+        "天蝎座",
+        "射手座",
+        "摩羯座",
+        "水瓶座",
+        "双鱼座",
+      ],
+      "longitude|123.10": 1.123,
+      "latitude|32.2": 1.123,
+      count: 1,
+      provinceName: "测试省",
+      cityName: "测试市",
+      districtName: "测试区",
+      streetName: "测试街道",
+      address: "创意产业园",
+      servePeople: "非特殊人群",
+      status: 2,
+      healthCode: 0,
+      serviceTime: "08:00~11:00，14:00~17:00",
+      closed: 1,
+      distance: 1041591.5669759354,
+    },
+    success: true,
+  },
+  "POST /region/list": {
+    code: "0000",
+    msg: "ok",
+    data: Mock.mock({
+      "list|1-10": [
+        {
+          "id|+1": 1,
+          "name|+1": ["白羊座", "金牛座"],
+          "code|+1": ["白羊座", "金牛座"],
+          "parentCode|+1": ["白羊座", "金牛座"],
+          "parentName|+1": ["白羊座", "金牛座"],
+          grade: 4,
+        },
+      ],
+      count: 0,
+      pageable: null,
+    }),
+    success: true,
+  },
+  "GET /notice/top": {
+    id: 2,
+    valid: 1,
+    createUser: "admin",
+    createTime: "2022-05-23T05:06:05.000+00:00",
+    modifyUser: "admin",
+    modifyTime: "2022-05-23T05:33:26.000+00:00",
+    content: "Moderate Taro3 模版项目，有问题，请在掘金找我，“闲D阿强”",
+    top: 1,
+  },
+};
